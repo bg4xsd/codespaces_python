@@ -2,9 +2,9 @@ ipywidgets
 matplotlib
 numpy
 pandas
-torch==2.0.1+cpu 
-torchvision=0.15.1+cpu
-torchaudio==2.0.1+cpu
+torch==1.13.1+cpu
+torchvision==0.14.1+cpu
+torchaudio==0.13.1
 tqdm
 autopep8
 astropy
@@ -16,6 +16,7 @@ lxml
 patsy
 psutil
 pylint
+pyecharts
 plotly
 requests
 statsmodels  
