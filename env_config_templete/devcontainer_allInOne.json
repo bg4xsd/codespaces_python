@@ -26,5 +26,5 @@
  //"postCreateCommand": "pip3 install --user -r requirements.txt",
  // 这里我没有准备虚拟环境，就做默认安装，放到 root的用户下面，会有告警信息
  "updateContentCommand":"python3 -m pip install -r requirements.txt",
- "postCreateCommand": "python3 -m pip cache purge"
+ "postCreateCommand": "pip cache purge"
 }
