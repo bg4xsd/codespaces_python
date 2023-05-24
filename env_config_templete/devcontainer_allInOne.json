@@ -4,7 +4,7 @@
   "hostRequirements": {
     "cpus": 4
   },
-  "waitFor": "onCreateCommand",
+  //"waitFor": "onCreateCommand",
   "customizations": {
      "vscode": {
          "extensions": [
@@ -16,7 +16,7 @@
    },
  // 如果用到 nodejs，再打开
  "features": {
- //   "ghcr.io/devcontainers/features/conda:1": {},
+ //    "ghcr.io/devcontainers/features/conda:1": {},
  //    "ghcr.io/devcontainers/features/git:1": {},
  //    "ghcr.io/devcontainers/features/node:1": {
  //        "version": "latest"
@@ -26,5 +26,5 @@
  //"postCreateCommand": "pip3 install --user -r requirements.txt",
  // 这里我没有准备虚拟环境，就做默认安装，放到 root的用户下面，会有告警信息
  "updateContentCommand":"pip3 install -r requirements.txt",
- "postCreateCommand": ""
+ "postCreateCommand": "pip cache purge"
 }
