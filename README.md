@@ -15,4 +15,4 @@ It's forked from github/codespaces-jupyter, wonderful work.
 
 3. For a while, your codespace will be upgrade to your pointed environment.
 
-4. Copy the necessary content to evcontainer.json and requirements.txt. ML stands for Machine Learning, NN is Neural Network, TS is Time Series analysis with some chaotic toolboxes.
+4. In env_config_templete directory, there are some pre-defined configuration, Copy the necessary content to evcontainer.json and requirements.txt. ML stands for Machine Learning, NN is Neural Network, TS is Time Series analysis with some chaotic toolboxes.

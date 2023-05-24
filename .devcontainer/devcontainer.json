@@ -1,27 +1,27 @@
 {
-  // 用Ubuntu 的镜像，里面有常用编程语言支持，c++,java,conda
-  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  "name": "Python 3.10",
   "hostRequirements": {
     "cpus": 4
   },
-  "waitFor": "onCreateCommand",
-  "customizations": {
-     "vscode": {
-         "extensions": [
-             "ms-python.python",
-             "ms-toolsai.jupyter",
-             "streetsidesoftware.code-spell-checker"
-        ]
-     }
-   },
- "features": {
-     "ghcr.io/devcontainers/features/node:1": {
-         "version": "latest"
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+   "waitFor": "onCreateCommand",
+   "customizations": {
+      "vscode": {
+          "extensions": [
+              "ms-python.python",
+              "ms-toolsai.jupyter",
+              "streetsidesoftware.code-spell-checker"
+         ]
       }
- },
- // Use 'postCreateCommand' to run commands after the container is created.
- //"postCreateCommand": "pip3 install --user -r requirements.txt",
- // 这里我没有准备虚拟环境，就做默认安装，放到 root的用户下面，会有告警信息
- "updateContentCommand":"pip3 install -r requirements.txt",
- "postCreateCommand": ""
+    },
+  "features": {
+      "ghcr.io/devcontainers/features/node:1": {
+          "version": "latest"
+       }
+  },
+  // Use 'postCreateCommand' to run commands after the container is created.
+  //"postCreateCommand": "pip3 install --user -r requirements.txt",
+  // 这里我没有准备虚拟环境，就做默认安装，放到 root的用户下面，会有告警信息
+  "updateContentCommand":"pip3 install -r requirements.txt",
+  "postCreateCommand": ""
 }
