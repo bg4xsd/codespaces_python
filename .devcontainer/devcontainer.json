@@ -2,9 +2,9 @@
   // 用Ubuntu 的镜像，里面有常用编程语言支持，c++,java,conda
   "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
   "hostRequirements": {
-    "cpus": 2
+    "cpus": 4
   },
-  "waitFor": "onCreateCommand",
+  //"waitFor": "onCreateCommand",
   "customizations": {
      "vscode": {
          "extensions": [
@@ -16,7 +16,7 @@
    },
  // 如果用到 nodejs，再打开
  "features": {
- //   "ghcr.io/devcontainers/features/conda:1": {},
+ //    "ghcr.io/devcontainers/features/conda:1": {},
  //    "ghcr.io/devcontainers/features/git:1": {},
  //    "ghcr.io/devcontainers/features/node:1": {
  //        "version": "latest"
