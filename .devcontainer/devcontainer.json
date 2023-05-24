@@ -1,20 +1,19 @@
 {
+  // 用Ubuntu 的镜像，里面有常用编程语言支持，c++,java,conda
   "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
   "hostRequirements": {
     "cpus": 4
   },
-  "waitFor": "onCreateCommand",
+  //"waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
   "postCreateCommand": "pip cache purge",
   "customizations": {
-    "codespaces": {
-      "openFiles": []
-    },
-    "vscode": {
-      "extensions": [
-        "ms-toolsai.jupyter",
-        "ms-python.python"
-      ]
-    }
-  }
-}
+     "vscode": {
+         "extensions": [
+             "ms-python.python",
+             "ms-toolsai.jupyter",
+             "eamodio.gitlens",
+             "streetsidesoftware.code-spell-checker"
+        ]
+     }
+   }
