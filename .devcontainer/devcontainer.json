@@ -14,8 +14,6 @@
       "extensions": [
         "ms-toolsai.jupyter",
         "ms-python.python",
-        "eamodio.gitlens",
-        "streetsidesoftware.code-spell-checker"
       ]
     }
   }
