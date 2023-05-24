@@ -1,20 +1,19 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "Python 3.10",
   "hostRequirements": {
     "cpus": 4
   },
-  "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "pip cache purge",
-  "customizations": {
-    "codespaces": {
-      "openFiles": []
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+   "waitFor": "onCreateCommand",
+   "customizations": {
+      "vscode": {
+          "extensions": [
+              "ms-python.python",
+              "ms-toolsai.jupyter",
+              "streetsidesoftware.code-spell-checker"
+         ]
+      }
     },
-    "vscode": {
-      "extensions": [
-        "ms-toolsai.jupyter",
-        "ms-python.python",
-      ]
-    }
-  }
+  "updateContentCommand":"pip3 install -r requirements.txt",
+  "postCreateCommand": ""
 }
