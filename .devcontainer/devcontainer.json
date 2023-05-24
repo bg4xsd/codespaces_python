@@ -4,7 +4,6 @@
     "cpus": 4
   },
   "image": "mcr.microsoft.com/devcontainers/python:3.10",
-   "waitFor": "onCreateCommand",
    "customizations": {
       "vscode": {
           "extensions": [
@@ -22,6 +21,5 @@
   // Use 'postCreateCommand' to run commands after the container is created.
   //"postCreateCommand": "pip3 install --user -r requirements.txt",
   // 这里我没有准备虚拟环境，就做默认安装，放到 root的用户下面，会有告警信息
-  "updateContentCommand":"pip install -r requirements.txt",
-  "postCreateCommand": ""
+  "postCreateCommand":"pip install -r requirements.txt"
 }
