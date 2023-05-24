@@ -16,7 +16,7 @@
    },
  // 如果用到 nodejs，再打开
  "features": {
-     "ghcr.io/devcontainers/features/conda:1": {},
+ //   "ghcr.io/devcontainers/features/conda:1": {},
  //    "ghcr.io/devcontainers/features/git:1": {},
  //    "ghcr.io/devcontainers/features/node:1": {
  //        "version": "latest"
