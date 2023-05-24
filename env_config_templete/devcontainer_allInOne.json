@@ -3,9 +3,9 @@
   // 用Ubuntu 的镜像，里面有常用编程语言支持，c++,java,conda
   "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
   "hostRequirements": {
-    "cpus": 4
+    "cpus": 2
   },
-  //"waitFor": "onCreateCommand",
+  "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
   "postCreateCommand": "pip cache purge",
   "customizations": {
