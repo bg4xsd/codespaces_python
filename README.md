@@ -21,4 +21,6 @@ It's forked from github/codespaces-jupyter, wonderful work.
 5. Two devcontainer configuration files are tested well. xxxPython3.10.json can be pointed with certain version.
 https://github.com/devcontainers/images pre-compiled a lot of docker images. https://github.com/microsoft/vscode-dev-containers/tree/main/containers is another repository. 
 
-5. https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces  is useful.
+6. The default image contain pytorch2.0, use pip install -U xxx for newer version; or pip install xxx==x.x.x.
+
+7. https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces  is useful.
