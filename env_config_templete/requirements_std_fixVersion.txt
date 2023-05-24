@@ -19,6 +19,7 @@ pylint
 plotly
 pyecharts
 requests
+scikit-learn
 statsmodels  
 simplejson      
 yapf      
