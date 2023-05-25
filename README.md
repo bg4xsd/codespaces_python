@@ -24,3 +24,8 @@ https://github.com/devcontainers/images pre-compiled a lot of docker images. htt
 6. The default image contain pytorch2.0, use pip install -U xxx for newer version; or pip install xxx==x.x.x.
 
 7. https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces  is useful.
+
+8. By now, only the original image is used, it's stable and fast. while the system is ready, install the packages by yourself. The install procedure is described in file env.md.
+
+----------
+Last update: 2023.05.26 by BG4XSD
