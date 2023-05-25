@@ -1,13 +1,17 @@
 {
   "name": "Python 3.10 Universal",
   // Use default ubuntu image with python, c++,java,conda
-  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "hostRequirements": {
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
-  "postCreateCommand": "python3 -m pip install -r requirements.txt || pip cache purge",
+  "postCreateCommand": "",
+  "customizations": {
+    "codespaces": {
+      "openFiles": []
+  },
   "customizations": {
      "vscode": {
          "extensions": [
