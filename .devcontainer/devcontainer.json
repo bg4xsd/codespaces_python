@@ -1,6 +1,6 @@
 {
   "name": "Python 3.10 Universal",
-  // 用Ubuntu 的镜像，里面有常用编程语言支持，c++,java,conda
+  // Use default ubuntu image with python, c++,java,conda
   "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
   "hostRequirements": {
     "cpus": 4
