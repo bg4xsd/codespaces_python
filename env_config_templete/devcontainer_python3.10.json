@@ -3,7 +3,7 @@
   "hostRequirements": {
     "cpus": 4
   },
-  // 这里可以选择特定的python版本
+  // choose your python version
   "image": "mcr.microsoft.com/devcontainers/python:3.9",
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
@@ -18,9 +18,8 @@
          ]
       }
     },
-  //用到再打开 nodejs
+  //If you need nodejs, un-commment
   "features": {
-
   //    "ghcr.io/devcontainers/features/git:1": {},
   //    "ghcr.io/devcontainers/features/conda:1": {},
   //    "ghcr.io/devcontainers/features/node:1": {
@@ -29,5 +28,5 @@
   },
   // Use 'postCreateCommand' to run commands after the container is created.
   //"postCreateCommand": "pip3 install --user -r requirements.txt",
-  // 这里我没有准备虚拟环境，就做默认安装，放到 root的用户下面，会有告警信息
+  // 
 }
