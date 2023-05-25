@@ -45,9 +45,8 @@ pip install -U Prophet -i https://pypi.org/simple
  conda install r-base   # install 4.2.0
  conda install -c conda-forge r-base==4.2.3 # force to certain version, check the channel often
  
-2. conda install -c conda-forge r-essentials
-3. conda install -c conda-forge r-stringi r-irkernel r-devtools 
-4. Start R, and run cmd:  IRkernel::installspec()
+2. conda install -c conda-forge r-essentials r-stringi r-irkernel r-devtools 
+3. Start R, and run cmd:  IRkernel::installspec()
 
 ## Save spaces of codespace
 
