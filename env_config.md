@@ -20,7 +20,7 @@ pip install scipy numpy matplotlib pandas jupyter notebook  jupyterlab ipython s
  
  pip install  AutoTS Sktime tsfresh
 
-## install torch，then fastai, last tsai
+## install torch，then fastai,  at last tsai
 
 ## pytorch for cpu
 
