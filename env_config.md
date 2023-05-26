@@ -55,6 +55,9 @@ pip install -U Prophet -i https://pypi.org/simple
  
 2. conda install -c conda-forge r-essentials r-stringi r-irkernel r-devtools 
 3. Start R, and run cmd:  IRkernel::installspec()
+4. conda install -c conda-forge r-tidymodels r-mlr3 r-mlr3verse r-rio r-bench rpy2 # add more R packages
+5. conda install -c conda-forge gluonts r-prophet # TSA
+6. Start R, and run cmd:  install.packages(c('tseriesChaos', 'nonlinearTseries', 'fNonlinear', 'DChaos'))  $ TSA
    
 ## Save spaces of codespace
 
