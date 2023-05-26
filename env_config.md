@@ -2,6 +2,8 @@
 
 For python=3.9 or 3.10
 
+For "image": "mcr.microsoft.com/devcontainers/universal:2", jupyter and pytorch are ready to work.
+
 ## Basic packages for data science and data analysis
 
 pip install scipy numpy matplotlib pandas jupyter notebook  jupyterlab ipython scikit-learn statsmodels patsy seaborn beautifulsoup4 simplejson bokeh psutil  pylint flake8 yapf autopep8 black requests lxml astropy scikit-learn-intelex ipykernel plotly pyecharts -i https://mirrors.cloud.tencent.com/pypi/simple
