@@ -58,6 +58,7 @@ pip install -U Prophet -i https://pypi.org/simple
 4. conda install -c conda-forge r-tidymodels r-mlr3 r-mlr3verse r-rio r-bench rpy2 # add more R packages
 5. conda install -c conda-forge gluonts r-prophet # TSA
 6. Start R, and run cmd:  install.packages(c('tseriesChaos', 'nonlinearTseries', 'fNonlinear', 'DChaos'))  $ TSA
+7. Start R, and run cmd:  install.packages(c('GGally', 'patchwork'))  # Others， maybe not update often, add by yourself. Note to remember.
    
 ## Save spaces of codespace
 
