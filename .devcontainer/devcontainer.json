@@ -12,7 +12,8 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
-  "postCreateCommand": "",
+  //"postCreateCommand": "",
+  "postCreateCommand": "python3 -m pip install -r requirements.txt || pip cache purge",
   "customizations": {
     "codespaces": {
       "openFiles": []

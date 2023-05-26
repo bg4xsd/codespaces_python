@@ -27,7 +27,9 @@ https://github.com/devcontainers/images pre-compiled a lot of docker images. htt
 
 8. By now, only the original image is used, it's stable and fast. while the system is ready, install the packages by yourself. The install procedure is described in file env.md.
 
-10. If you use "image": "mcr.microsoft.com/devcontainers/universal:2", you can start the python project with jupyter pytorch.
+10. If you use "image": "mcr.microsoft.com/devcontainers/universal:2", you can start the python project with jupyter pytorch. If you want to build Python plus R environment, choose this image, if you want to choose different Python version, use conda or venv to create your own env.
+
+11. If you choose "image": "mcr.microsoft.com/devcontainers/python:3.10", it's a smaller and faster image with a blank, clear pip environment only. No conda. 
 
 ----------
 Last update: 2023.05.26 by BG4XSD
