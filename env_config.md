@@ -43,6 +43,9 @@ pip install tsai
 pip install -U Prophet -i https://pypi.org/simple
 
 ## Install R with conda, last update 2023.05
+   If you have several conda virtual env, make sure that above install steps and below steps are proceeding in the same conda virtual env.
+   
+   If conda throw error messages for broken install procedure, use cmd conda clean --all  to clean the virtual env, then install again.
 
 1. install r-base
 
@@ -52,7 +55,7 @@ pip install -U Prophet -i https://pypi.org/simple
  
 2. conda install -c conda-forge r-essentials r-stringi r-irkernel r-devtools 
 3. Start R, and run cmd:  IRkernel::installspec()
-
+   
 ## Save spaces of codespace
 
 pip cache purge      
