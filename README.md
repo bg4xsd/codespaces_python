@@ -27,5 +27,7 @@ https://github.com/devcontainers/images pre-compiled a lot of docker images. htt
 
 8. By now, only the original image is used, it's stable and fast. while the system is ready, install the packages by yourself. The install procedure is described in file env.md.
 
+10. If you use "image": "mcr.microsoft.com/devcontainers/universal:2", you can start the python project with jupyter pytorch.
+
 ----------
 Last update: 2023.05.26 by BG4XSD
