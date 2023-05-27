@@ -2,7 +2,7 @@
 
 For python=3.9 or 3.10
 
-For "image": "mcr.microsoft.com/devcontainers/universal:2", jupyter and pytorch are ready to work. For Python plus R enviroment, build from here.
+For "image": "mcr.microsoft.com/devcontainers/universal:2", jupyter and pytorch are ready to work. For Python plus R enviroment, build from here. It contains Python, Java, C compiler.
 
 For "image": "mcr.microsoft.com/devcontainers/python:3.10", it's a smaller and faster image with a blank, clear pip environment only. No conda. Install your packages by yourself.
 
