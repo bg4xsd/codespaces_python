@@ -67,12 +67,14 @@ pip cache purge
 
 conda clean --all
 
-## How to export the Python environment 
+## How to import/export the Python environment 
    For python env, conda and pip can work togther, but they managed the package separately, you have to import/export the evn for each of them. Obviously, if you use conda and pip at the same time, you should do conda management before pip's working. 
    
    For Github codespaces, try to use conda base environment, if you want to create new conda virtual env, DO NOT use conda command to install the new virtual env into /opt/conda directory, the Jupyter can not recoginize it, follow the command by click choosing kernel,...create new env...conda..., then the new conda env will be created under current project directory, in .conda directory, which can work well.
    
    For cloudstudio, try by yourself.
+   
+   For most situations, pip is OK for data analysis and machine learning. Especially, for building a complex working environment, like Python-R mixxed system, you have to use conda.
    
 ### export python packages
 pip list freeze > requestment.txt # You can export the packages list of current working environment,  and others can build the same env.
