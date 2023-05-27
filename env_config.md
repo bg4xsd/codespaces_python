@@ -48,14 +48,14 @@ pip install -U Prophet -i https://pypi.org/simple
    If conda throw error messages for broken install procedure, use cmd conda clean --all  to clean the virtual env, then install again.
 
 1. install r-base
-
-   conda install r-base   # install 4.2.0
    
    conda install -c conda-forge r-base==4.2.3 # force to certain version, check the channel often
  
 2. conda install -c conda-forge r-essentials r-stringi r-irkernel r-devtools 
 3. Start R, and run cmd:  IRkernel::installspec()
-4. conda install -c conda-forge r-tidymodels r-mlr3 r-mlr3verse r-rio r-bench rpy2 # add more R packages
+4. conda install -c conda-forge r-tidyverse r-tidymodels r-mlr3 r-mlr3verse r-rio r-bench rpy2 # add more R packages
+
+### optional
 5. conda install -c conda-forge gluonts r-prophet # TSA
 6. Start R, and run cmd:  install.packages(c('tseriesChaos', 'nonlinearTseries', 'fNonlinear', 'DChaos'))  $ TSA
 ### Others， maybe not update often, add by yourself. Note to remember.
