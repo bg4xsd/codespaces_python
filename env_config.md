@@ -103,6 +103,8 @@ Some times, your docker image or new system will miss some packages for developi
 
 (3) sudo apt install htop  # view the cpu and memory usage, you can install the ubuntu libs like this by yourself.
 
+(4) apt-get clean, apt-get autoclean, apt-get autoremove # clear apt cache, un-used sytem packages.
+
 ## 6. Conclusion
 Forming good habits to write note for your project, add notes to your code for making them legible. 
 
