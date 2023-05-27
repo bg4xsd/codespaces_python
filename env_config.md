@@ -77,7 +77,9 @@ conda clean --all
    For most situations, pip is OK for data analysis and machine learning. Especially, for building a complex working environment, like Python-R mixed system, or some packages pre-compiled in conda-forge only, you have to use conda. For linux,  you can build most of the packages by yourself and the C compiler is more useful.
    
 ### export python packages
+
 pip list freeze > requestment.txt # You can export the packages list of current working environment,  and others can build the same env.
+
 pip list freeze > requestment.txt # Use this, without path, with version number, it's OK
 
 ### install python packages
@@ -94,6 +96,7 @@ conda env create -f da310.yaml  # the conda virtual env's name is contained in t
 
 ## 5. Install some system packages, for Ubuntu only
 Some times, your docker image or new system will miss some packages for developing, you have to install them, and below cmd is useful, you can add your own note below for certain developing system.
+
 (1) sudo apt update  # update the apt repository
 
 (2) sudo apt install build-essential gdb # install C compiler and neccesary libs
