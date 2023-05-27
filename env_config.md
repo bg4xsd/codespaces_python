@@ -88,7 +88,10 @@ pip uinstall –r requestment.txt
 
 ### sometimes, you use conda install some packages, and you have to use conda do the export/import work
 conda env export > da310.yaml  # try to choose the file name same to the envrionment, for easy remember.
-
 conda env create -f da310.yaml  # the conda virtual env's name is contained in the yaml file. Let others build the same env.
 
+## install some system packages, for Ubuntu only
+(1) sudo apt update  # update the apt repository
+(2) sudo apt install build-essential gdb # install C compiler and neccesary libs
+(2) sudo apt install htop  # view the cpu and memory usage, you can install the ubuntu libs like this by yourself.
 
