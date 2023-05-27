@@ -14,7 +14,7 @@ pip install scipy numpy matplotlib pandas jupyter notebook  jupyterlab ipython s
 
  https://pypi.org/simple
 
-## Time series packages
+## 2. Time series packages
 
  pip install nolds pynamical PyRQA pyts hundun
  
@@ -42,7 +42,7 @@ pip install tsai
 
 pip install -U Prophet -i https://pypi.org/simple
 
-## 2. Install R with conda, last update 2023.05
+## 3. Install R with conda, last update 2023.05
    If you have several conda virtual env, make sure that above install steps and below steps are proceeding in the same conda virtual env.
    
    If conda throw error messages for broken install procedure, use cmd conda clean --all  to clean the virtual env, then install again.
@@ -67,7 +67,7 @@ pip cache purge
 
 conda clean --all
 
-## 3. How to import/export the Python environment 
+## 4. How to import/export the Python environment 
    For python env, conda and pip can work togther, but they managed the package separately, you have to import/export the evn for each of them. Obviously, if you use conda and pip at the same time, you should do conda management before pip's working. 
    
    For Github codespaces, try to use conda base environment, if you want to create new conda virtual env, DO NOT use conda command to install the new virtual env into /opt/conda directory, the Jupyter can not recoginize it, follow the command by click choosing kernel,...create new env...conda..., then the new conda env will be created under current project directory, in .conda directory, which can work well.
@@ -90,7 +90,7 @@ pip uinstall –r requestment.txt
 conda env export > da310.yaml  # try to choose the file name same to the envrionment, for easy remember.
 conda env create -f da310.yaml  # the conda virtual env's name is contained in the yaml file. Let others build the same env.
 
-## 4. Install some system packages, for Ubuntu only
+## 5. Install some system packages, for Ubuntu only
 Some times, your docker image or new system will miss some packages for developing, you have to install them, and below cmd is useful, you can add your own note below for certain developing system.
 (1) sudo apt update  # update the apt repository
 
@@ -98,7 +98,7 @@ Some times, your docker image or new system will miss some packages for developi
 
 (3) sudo apt install htop  # view the cpu and memory usage, you can install the ubuntu libs like this by yourself.
 
-## 5. Conclusion
+## 6. Conclusion
 Forming good habits to write note for your project, add notes to your code for making them legible. 
 
 --------------
