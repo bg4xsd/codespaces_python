@@ -20,9 +20,9 @@ pip install scipy numpy matplotlib pandas jupyter notebook  jupyterlab ipython s
  
  pip install  AutoTS Sktime tsfresh
 
-## install torch，then fastai,  at last tsai
+### install torch，then fastai,  at last tsai
 
-## pytorch for cpu
+### pytorch for cpu
 
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu  # torch CPU latest version
 
@@ -30,15 +30,15 @@ or
 
 pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
 
-## fastai 
+### fastai 
 
 pip install fastai
 
-## tsai
+### tsai
 
 pip install tsai
 
-## Prophet
+### Prophet
 
 pip install -U Prophet -i https://pypi.org/simple
 
@@ -90,8 +90,16 @@ pip uinstall –r requestment.txt
 conda env export > da310.yaml  # try to choose the file name same to the envrionment, for easy remember.
 conda env create -f da310.yaml  # the conda virtual env's name is contained in the yaml file. Let others build the same env.
 
-## install some system packages, for Ubuntu only
+## Install some system packages, for Ubuntu only
+Some times, your docker image or new system will miss some packages for developing, you have to install them, and below cmd is useful, you can add your own note below for certain developing system.
 (1) sudo apt update  # update the apt repository
-(2) sudo apt install build-essential gdb # install C compiler and neccesary libs
-(2) sudo apt install htop  # view the cpu and memory usage, you can install the ubuntu libs like this by yourself.
 
+(2) sudo apt install build-essential gdb # install C compiler and neccesary libs
+
+(3) sudo apt install htop  # view the cpu and memory usage, you can install the ubuntu libs like this by yourself.
+
+## Conclusion
+Forming good habits to write note for your project, add notes to your code for making them legible. 
+
+--------------
+Last update by Dr. Cat (BG4XSD) @ 2023.05.27
