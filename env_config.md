@@ -74,7 +74,7 @@ conda clean --all
    
    For cloudstudio, try by yourself.
    
-   For most situations, pip is OK for data analysis and machine learning. Especially, for building a complex working environment, like Python-R mixxed system, you have to use conda.
+   For most situations, pip is OK for data analysis and machine learning. Especially, for building a complex working environment, like Python-R mixed system, or some packages pre-compiled in conda-forge only, you have to use conda. For linux,  you can build most of the packages by yourself and the C compiler is more useful.
    
 ### export python packages
 pip list freeze > requestment.txt # You can export the packages list of current working environment,  and others can build the same env.
