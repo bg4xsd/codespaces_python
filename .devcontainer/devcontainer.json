@@ -8,7 +8,7 @@
   // install everything by yourself. 
   //"image": "mcr.microsoft.com/devcontainers/python:3.10",
   "hostRequirements": {
-    "cpus": 4
+    "cpus": 2
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
