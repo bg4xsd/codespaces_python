@@ -31,5 +31,7 @@ https://github.com/devcontainers/images pre-compiled a lot of docker images. htt
 
 11. If you choose "image": "mcr.microsoft.com/devcontainers/python:3.10", it's a smaller and faster image with a blank, clear pip environment only. No conda. 
 
+12. Add some colab notebooks , that explain how to use colab with github,  Kaggle works similarly. 
+
 ----------
-Last update: 2023.05.26 by BG4XSD
+Last update: 2023.06.05 by BG4XSD
